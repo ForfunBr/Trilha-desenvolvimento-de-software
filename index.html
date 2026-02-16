@@ -78,6 +78,32 @@
                     <!-- href usado para criar uma referencia dentro da pagina ou hiperlink -->
                 </address>
 
+                <!-- form para criar campos de formulario, nesse caso para entrar em contato comigo -->
+                <form action="https://example.com/submit" method="post">
+                    <label for="name">Nome: </label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    
+                    <label for="email">Email: </label><br>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="telefone">Telefone: </label><br>
+                    <input type="tel" id="telefone" name="telefone"><br>
+
+                    <label for="assunto">Assunto: </label><br>
+                    <select id="assunto" name="assunto">
+                        <option value="orcamento">Orçamento</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outros">Outros</option>
+                    </select><br>
+
+                    <label for="mensagem">Mensagem: </label><br>
+                    <textarea id="mensagem" name="mensagem" cols="30" rows="10" required></textarea><br>
+
+                    <input type="checkbox" id="Inscricao" name="Inscricao">
+                    <Label for="Inscricao"></Label>Deseja receber minhas novidades por email?</Label>
+
+                    <input type="submit" value="Enviar mensagem">
+
             </section>
         </footer>
 
